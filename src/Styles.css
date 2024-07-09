@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #774198; 
+  color: #ffffff; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 1px;
+  
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.cell.occupied {
+  background-color: #fcca36; 
+}
+
+label {
+  margin-top: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #4a0091; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ddd; 
+  color: black
+}
+
+input[type="range"],
+input[type="number"] {
+  margin-left: 10px;
+}
