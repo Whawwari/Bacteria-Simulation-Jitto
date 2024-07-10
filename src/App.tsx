@@ -1,6 +1,4 @@
 import Grid from './Components/Grid';
-
-
 import './Styles.css';
 
 
